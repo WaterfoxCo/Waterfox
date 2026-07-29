@@ -68,3 +68,7 @@
     display: none !important;
   }
 }
+
+.tabbrowser-tab[unread]:not([selected], [pending]) .tab-label {
+  font-style: italic;
+}
